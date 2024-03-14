@@ -1,6 +1,7 @@
 [
     {
       "id": 123456,
+      "title": "The Mysterious Adventure",
       "cover_photo": "https://i.ibb.co/bv38r2m/Comment-redimensionner-une-image-sans-perte-de-qualit.jpg",
       "author": "Emily Johnson",
       "author_image": "https://i.ibb.co/kBmbrbn/1603954915-copy-of-blog-header-image-880x450-5-min.jpg",
@@ -10,6 +11,7 @@
     },
     {
       "id": 789012,
+      "title": "The Future Chronicles",
       "cover_photo": "https://i.ibb.co/bmY015B/laptop-camera-colorful-background.jpg",
       "author": "John Smith",
       "author_image": "https://i.ibb.co/qFZXpGZ/online-message-blog-chat-communication-envelop-graphic-icon-concept.jpg",
@@ -19,6 +21,7 @@
     },
     {
       "id": 345678,
+      "title": "Love's Journey",
       "cover_photo": "https://i.ibb.co/bmY015B/laptop-camera-colorful-background.jpg",
       "author": "Samantha Davis",
       "author_image": "https://i.ibb.co/qFZXpGZ/online-message-blog-chat-communication-envelop-graphic-icon-concept.jpg",
@@ -28,6 +31,7 @@
     },
     {
       "id": 901234,
+      "title": "The Enigma",
       "cover_photo": "https://i.ibb.co/bv38r2m/Comment-redimensionner-une-image-sans-perte-de-qualit.jpg",
       "author": "Michael Brown",
       "author_image": "https://i.ibb.co/kBmbrbn/1603954915-copy-of-blog-header-image-880x450-5-min.jpg",
@@ -37,6 +41,7 @@
     },
     {
       "id": 567890,
+      "title": "Haunted Dreams",
       "cover_photo": "https://i.ibb.co/9mP7YQY/workspace-office-supplies-laptop-pink-background.jpg",
       "author": "Sarah Miller",
       "author_image": "https://i.ibb.co/bmY015B/laptop-camera-colorful-background.jpg",
