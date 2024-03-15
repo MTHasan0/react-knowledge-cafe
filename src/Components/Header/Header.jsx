@@ -4,7 +4,7 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <div className='card-container flex justify-between'>
+        <div className='nav-container flex justify-between'>
             <h1>Knowledge Cafe React</h1>
             <img src={profile}></img>
         </div>

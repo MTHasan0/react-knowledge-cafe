@@ -1,16 +1,18 @@
 import PropTypes from 'prop-types';
+import { FaBookmark } from "react-icons/fa";
 
 import './Blog.css'
 
 // eslint-disable-next-line react/prop-types
 import authorImage from '../../assets/profile.png'
-const Blog = ({ blog }) => {
+
+const Blog = ({ blog, handleBookmarks, handleReadingTime }) => {
 
     const {title, cover_photo, author, posted_date, reading_time, hashtags} = blog;
 
-    console.log(blog);
+    
     return (
-        <div>
+        <div className='mb-5'>
             <div className='cover-container'>
                 <img src={cover_photo}></img>
             </div>
@@ -24,8 +26,9 @@ const Blog = ({ blog }) => {
                         <p>{posted_date}</p>
                     </div>
                 </div>
-                <div>
+                <div className='flex gap-5 items-center'>
                     <p>{reading_time} min read</p>
+                    <button onClick={()=>handleBookmarks(blog)}><FaBookmark></FaBookmark></button>
 
                 </div>
             </div>
@@ -35,7 +38,7 @@ const Blog = ({ blog }) => {
 
             <br></br>
 
-            <a role='button'>Mark as read</a>
+            <a role='button' onClick={()=>handleReadingTime(reading_time)}>Mark as read</a>
 
 
 
@@ -44,7 +47,9 @@ const Blog = ({ blog }) => {
 };
 
 Blog.propTypes = {
-    blog: PropTypes.object.isRequired
+    blog: PropTypes.object.isRequired,
+    handleBookmarks: PropTypes.func.isRequired,
+    handleReadingTime: PropTypes.func.isRequired
 }
 
 
